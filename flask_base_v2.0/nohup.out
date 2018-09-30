@@ -1,0 +1,70 @@
+send: 'ehlo [172.29.152.249]\r\n'
+reply: '250-smtp.aliyun-inc.com\r\n'
+reply: '250-STARTTLS\r\n'
+reply: '250-8BITMIME\r\n'
+reply: '250-AUTH=PLAIN LOGIN XALIOAUTH\r\n'
+reply: '250-AUTH PLAIN LOGIN XALIOAUTH\r\n'
+reply: '250-PIPELINING\r\n'
+reply: '250 DSN\r\n'
+reply: retcode (250); Msg: smtp.aliyun-inc.com
+STARTTLS
+8BITMIME
+AUTH=PLAIN LOGIN XALIOAUTH
+AUTH PLAIN LOGIN XALIOAUTH
+PIPELINING
+DSN
+send: 'AUTH PLAIN AHd1ZEB3YW5nanVueC50b3AAOTQ5NTAxaG9sZG9uMC4w\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<wud@wangjunx.top>\r\n'
+reply: '250 Mail Ok\r\n'
+reply: retcode (250); Msg: Mail Ok
+send: 'rcpt TO:<1411349759@qq.com>\r\n'
+reply: '250 Rcpt Ok\r\n'
+reply: retcode (250); Msg: Rcpt Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/plain; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nFrom: WUD_API_SERVICE <wud@wangjunx.top>\r\nTo: Wangjunx <1411349759@qq.com>\r\nSubject: [API_CLIENT]__1__API_ERROR\r\n\r\nV0hPSVMgU0VSVklDRSBBUEkgVkVSIDAuMQoKQXV0aG9yIC0gV2FuZ2p1bnhAV1VECkhhcmJpbiBJ\r\nbnN0aXR1dGUgT2YgVGVjaG5vbG9neSBBdCBXZWloYWkKCkN5YmVyc3BhY2UgU2VjdXJpdHkKLS0t\r\nLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoqIDEwLjI0NS4xNDYuMzc6ODA0\r\nOCEKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQo=\r\n.\r\n'
+reply: '250 Data Ok: queued as freedom\r\n'
+reply: retcode (250); Msg: Data Ok: queued as freedom
+data: (250, 'Data Ok: queued as freedom')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
+send: 'ehlo [172.29.152.249]\r\n'
+reply: '250-smtp.aliyun-inc.com\r\n'
+reply: '250-STARTTLS\r\n'
+reply: '250-8BITMIME\r\n'
+reply: '250-AUTH=PLAIN LOGIN XALIOAUTH\r\n'
+reply: '250-AUTH PLAIN LOGIN XALIOAUTH\r\n'
+reply: '250-PIPELINING\r\n'
+reply: '250 DSN\r\n'
+reply: retcode (250); Msg: smtp.aliyun-inc.com
+STARTTLS
+8BITMIME
+AUTH=PLAIN LOGIN XALIOAUTH
+AUTH PLAIN LOGIN XALIOAUTH
+PIPELINING
+DSN
+send: 'AUTH PLAIN AHd1ZEB3YW5nanVueC50b3AAOTQ5NTAxaG9sZG9uMC4w\r\n'
+reply: '235 Authentication successful\r\n'
+reply: retcode (235); Msg: Authentication successful
+send: 'mail FROM:<wud@wangjunx.top>\r\n'
+reply: '250 Mail Ok\r\n'
+reply: retcode (250); Msg: Mail Ok
+send: 'rcpt TO:<1411349759@qq.com>\r\n'
+reply: '250 Rcpt Ok\r\n'
+reply: retcode (250); Msg: Rcpt Ok
+send: 'data\r\n'
+reply: '354 End data with <CR><LF>.<CR><LF>\r\n'
+reply: retcode (354); Msg: End data with <CR><LF>.<CR><LF>
+data: (354, 'End data with <CR><LF>.<CR><LF>')
+send: 'Content-Type: text/plain; charset="utf-8"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nFrom: WUD_API_SERVICE <wud@wangjunx.top>\r\nTo: Wangjunx <1411349759@qq.com>\r\nSubject: [API_CLIENT]__1__API_ERROR\r\n\r\nV0hPSVMgU0VSVklDRSBBUEkgVkVSIDAuMQoKQXV0aG9yIC0gV2FuZ2p1bnhAV1VECkhhcmJpbiBJ\r\nbnN0aXR1dGUgT2YgVGVjaG5vbG9neSBBdCBXZWloYWkKCkN5YmVyc3BhY2UgU2VjdXJpdHkKLS0t\r\nLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoqIDEwLjI0NS4xNDYuMzc6ODA0\r\nOCEKLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQo=\r\n.\r\n'
+reply: '250 Data Ok: queued as freedom\r\n'
+reply: retcode (250); Msg: Data Ok: queued as freedom
+data: (250, 'Data Ok: queued as freedom')
+send: 'quit\r\n'
+reply: '221 Bye\r\n'
+reply: retcode (221); Msg: Bye
