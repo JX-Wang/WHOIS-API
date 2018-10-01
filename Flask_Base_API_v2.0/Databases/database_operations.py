@@ -9,11 +9,11 @@ date    :   2018.9.16
 import MySQLdb
 
 mysql_connect = {
-    "host": "10.245.146.37",
-    "user": "root",
-    "passwd": "platform",
-    "port": 3306,
-    "db": "whois_api_test",
+    "host": "*",
+    "user": "*",
+    "passwd": "*",
+    "port": *,
+    "db": "*",
     "charset": "utf8"
 }
 
