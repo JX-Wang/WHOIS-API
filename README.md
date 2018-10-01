@@ -14,10 +14,8 @@
 ### Contact
 
 WUD(@wjx)
-
 wud@wangjunx.top/
 wjx.wud@gmail.com
-
 Harbin Institute of Technology At WeiHai
 
-[WUD blog](http://www.wangjunx.top)
+[wjx的博客](http://www.wangjunx.top)
