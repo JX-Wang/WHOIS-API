@@ -7,6 +7,8 @@
 
 ```curl http://ip:port/WHOIS/<domain:whois_srv>```
 
+
+
 ### Mode
 
 ![](https://github.com/WUD-51/WHOIS-API/blob/master/Demo.jpg)
@@ -14,8 +16,9 @@
 ### Contact
 
 WUD(@wjx)
-wud@wangjunx.top/
-wjx.wud@gmail.com
+
+wud@wangjunx.top/wjx.wud@gmail.com
+
 Harbin Institute of Technology At WeiHai
 
 [wjx的博客](http://www.wangjunx.top)
