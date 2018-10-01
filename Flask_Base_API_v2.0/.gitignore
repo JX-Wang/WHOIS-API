@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+setting.json
+*.json
+*.doc
+*.docx
+.idea
+*.xml
+*.pyc
+# *.log
+# *.conf
+# *.json
+*.tld_set
+nohup.out
+running.log.*
