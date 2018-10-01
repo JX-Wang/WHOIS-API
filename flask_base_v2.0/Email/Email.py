@@ -13,9 +13,9 @@ import smtplib
 from Log.log import Log
 
 sender = "wud@wangjunx.top"
-sender_pass = "949501holdon0.0"
+sender_pass = "***"
 receiver = ["1411349759@qq.com", "1052066743@qq.com"]
-smtp_server = "smtp.wangjunx.top"
+smtp_server = "***"
 
 Log.init()
 log = Log.logger
