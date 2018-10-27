@@ -17,7 +17,7 @@
 
 WUD(@wjx)
 
-wud@wangjunx.top/wjx.wud@gmail.com
+wud@wangjunx.top wjx.wud@gmail.com
 
 Harbin Institute of Technology At WeiHai
 
