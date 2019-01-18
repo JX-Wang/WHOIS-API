@@ -11,7 +11,7 @@ This Server is used for sending domain's whois query to Client machine
       ##### 1.1 主从节点采用心跳的的方式进行感知，若从节点出现崩溃的情况，主节点则将其从effective节点中去除崩溃的节点，等待下一次心跳感知
       ##### 1.2 若从节点崩溃，主节点则会向管理员发送邮件，告知哪几个节点出现问题，管理员可以通过邮件内容找到出错的节点并进行维护
   2. 并发：
-      ##### 2.1 基于```gevent monkek```和 ```gevent WSGIServer```的高性能并发模型，同时并发处理上限还没有做过压力测试
+      ##### 2.1 基于```gevent monkek```和 ```gevent WSGIServer```的高性能并发模型，但是并发处理上限目前还没有做过压力测试
   3. proxy：
       ##### 3.1 proxy在发送时是可选的，不加proxy，API从节点也可进行whois探测，不过为了保证稳定，添加代理是一种必要的方法
       
