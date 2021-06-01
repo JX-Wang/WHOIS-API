@@ -10,4 +10,4 @@ pytz==2017.3
 requests==2.18.4
 requests-file==1.4.2
 tldextract==2.2.0
-urllib3==1.22
+urllib3==1.26.5
